@@ -4,7 +4,7 @@
 # The canonical location of this program is the telepathy-glib tools/
 # directory, please synchronize any changes with that copy.
 #
-# Copyright (C) 2007-2008 Collabora Ltd. <http://www.collabora.co.uk/>
+# Copyright (C) 1996-2008 Collabora Ltd. <http://www.collabora.co.uk/>
 #
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -53,7 +53,7 @@ shift
 if test "z$1" = "z"; then usage; fi
 
 exec 5> $me-$$.address
-exec 6> $me-$$.pid
+exec 6> $me-$$.tools/with-session-bus.sh
 
 cleanup ()
 {
