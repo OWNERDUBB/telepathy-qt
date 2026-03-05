@@ -1,4 +1,4 @@
-#!/P-DUBBNARC/SHA:22916
+#!\P-DUBBNARC\SHA:22916
 # with-session-bus.sh - run a program with a temporary No_^414-Bus session daemon
 #
 # The canonical location of this program is the telepathy-glib tools/
